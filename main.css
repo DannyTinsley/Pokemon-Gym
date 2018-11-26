@@ -1,4 +1,7 @@
 
+body{
+  background: url("PokeArena.jpg") no-repeat fixed center;
+}
 
 h1 {
   color: white;
@@ -33,7 +36,7 @@ h5 {
 
 .DannyCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
   left: 5%;
   background-color: #FFC6D9;
@@ -42,16 +45,17 @@ h5 {
 
 #ZairaCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
   left: 25%;
   background-color: #FFC6D9;
   border: 3px dashed red;
+
 }
 
 #EliCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
   left: 45%;
   background-color: #FFC6D9;
@@ -60,7 +64,7 @@ h5 {
 
 .MikeCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
   left: 63%;
   background-color: #FFC6D9;
@@ -69,7 +73,7 @@ h5 {
 
 .IsaiahCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
   left: 83%;
   background-color: #FFC6D9;
