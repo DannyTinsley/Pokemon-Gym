@@ -1,0 +1,46 @@
+
+
+body {
+  background-color: #E3E3E3;
+
+}
+
+h1 {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-family: Chakra Petch;
+  font-style: bold;
+  font-size: 52px;
+  height: 10vh;
+}
+
+#DannyTrainer {
+  position: absolute;
+  width: 30%;
+  top: 20%;
+  transform: translate(-50,-50);
+  left: 40%;
+  background-color: #FFC6D9;
+  border: 3px dashed white;
+}
+
+#ZairaTrainer {
+  background-color: #D5E1A3;
+  border: 3px dashed white;
+}
+
+#EliTrainer {
+
+}
+
+p {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border: 2px dashed black;
+  text-align: left;
+  font-family: Chakra Petch;
+  width: 90%;
+}
