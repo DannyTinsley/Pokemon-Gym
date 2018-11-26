@@ -1,0 +1,35 @@
+
+
+body {
+background-color: #E3E3E3;
+
+}
+
+h1 {
+  color: white;
+  background-color: #D5E1A3;
+  text-align: center;
+  font-family: Chakra Petch;
+  font-style: bold;
+  font-size: 52px;
+}
+
+#DannyTrainer {
+  position: absolute;
+  width: 30%;
+  top: 30%;
+  transform: translate(-50,-50);
+  left: 40%;
+  background-color: #FFC6D9;
+  border: 3px dashed white;
+}
+
+p {
+  background-color: white;
+  color: red;
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  font-family: Chakra Petch;
+
+}
