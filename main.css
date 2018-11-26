@@ -1,3 +1,84 @@
+<<<<<<< HEAD
 body{
   background: url("PokeArena.jpg") no-repeat fixed center;
+=======
+
+
+body {
+  background-color: #E3E3E3;
+
+}
+
+h1 {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-family: Chakra Petch;
+  font-style: bold;
+  font-size: 52px;
+  height: 10vh;
+}
+
+#trainer{
+  width:25vh;
+  height:25vh;
+}
+
+#pb{
+  margin-left: 26%;
+  margin-top:20%;
+  position: absolute;
+  width:10vh;
+  height:10vh;
+  text-transform: capitalize
+}
+
+#sb{
+  margin-left: 46%;
+  margin-top:20%;
+  position: absolute;
+  width:10vh;
+  height:10vh;
+  text-transform: capitalize
+}
+
+#mb{
+  margin-left: 66%;
+  margin-top:20%;
+  position: absolute;
+  width:10vh;
+  height:10vh;
+  text-transform: capitalize
+}
+
+
+#DannyTrainer {
+  position: absolute;
+  width: 30%;
+  top: 20%;
+  transform: translate(-50,-50);
+  left: 40%;
+  background-color: #FFC6D9;
+  border: 3px dashed white;
+}
+
+#ZairaTrainer {
+  background-color: #D5E1A3;
+  border: 3px dashed white;
+}
+
+#EliTrainer {
+
+}
+
+p {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border: 2px dashed black;
+  text-align: left;
+  font-family: Chakra Petch;
+  width: 90%;
+>>>>>>> e56381f2c28686ab552f45aa437d913712a50156
 }
