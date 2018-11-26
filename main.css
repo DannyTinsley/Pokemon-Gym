@@ -1,4 +1,9 @@
 
+body{
+  background: url("PokeArena.jpg") no-repeat fixed center;
+}
+
+
 
 h1 {
   color: white;
@@ -81,4 +86,5 @@ p {
   text-align: center;
   font-family: Chakra Petch;
   width: 90%;
+>>>>>>> e56381f2c28686ab552f45aa437d913712a50156
 }
