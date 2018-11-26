@@ -35,6 +35,7 @@ let sliderImages = document.querySelectorAll('.slide'),
       slideRight();
     });
     startSlide();
+
 let img1;
 let pokeinfo;
 class Pokemon{
@@ -207,48 +208,42 @@ function snor(){
     })
 }
 
-let open1 = document.getElementById("pb");
-function changing1(){
-  if(open1.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
-    open1.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
-    }
-  }
-
-  let open2 = document.getElementById("sb");
-  function changing2(){
-    if(open2.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
-      open2.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
-      }
-    }
-
-let open = document.getElementById("mb");
-function changing(){
-  if(open.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
-    open.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
-    }
-  }
-
-
-  function main(){
-      document.getElementById('pb').style.display = "initial";
-      document.getElementById('mb').style.display = "initial";
-      document.getElementById('sb').style.display = "initial";
-      open1.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
-      open2.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
-      open.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
-      document.getElementById('trainer').style.display = "initial";
-      pokeinfo.style.display = "none";
-      img1.style.display = "none";
-      document.body.style.backgroundImage = "url('https://free4kwallpapers.com/no-watermarks/originals/2018/06/18/created-a-3d-render-of-a-pokemon-trophy-in-the-grass-wallpaper.jpg')";
-  }
+// let open1 = document.getElementById("pb");
+// function changing1(){
+//   if(open1.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
+//     open1.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
+//     }
+//   }
+//
+//   let open2 = document.getElementById("sb");
+//   function changing2(){
+//     if(open2.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
+//       open2.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
+//       }
+//     }
+//
+// let open = document.getElementById("mb");
+// function changing(){
+//   if(open.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
+//     open.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
+//     }
+//   }
 
 
-pb.addEventListener('click', changing1);
-sb.addEventListener('click', changing2);
-mb.addEventListener('click', changing);
-mb.addEventListener('click', mew);
-mb.addEventListener("mouseout", main);
-sb.addEventListener('click', snor);
-sb.addEventListener("mouseout", main);
-pb.addEventListener('click', pika);
-pb.addEventListener("mouseout", main);
+  // function main(){
+  //     document.getElementById('pb').style.display = "initial";
+  //     document.getElementById('mb').style.display = "initial";
+  //     document.getElementById('sb').style.display = "initial";
+  //     open1.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
+  //     open2.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
+  //     open.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
+  //     document.getElementById('trainer').style.display = "initial";
+  //     pokeinfo.style.display = "none";
+  //     img1.style.display = "none";
+  //     document.body.style.backgroundImage = "url('https://free4kwallpapers.com/no-watermarks/originals/2018/06/18/created-a-3d-render-of-a-pokemon-trophy-in-the-grass-wallpaper.jpg')";
+  // }
+
+//
+// mb.addEventListener('click', mew);
+// sb.addEventListener('click', snor);
+// pb.addEventListener('click', pika);
