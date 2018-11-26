@@ -206,12 +206,6 @@ function snor(){
   // }
 
 
-// pb.addEventListener('click', changing1);
-// sb.addEventListener('click', changing2);
-// mb.addEventListener('click', changing);
 mb.addEventListener('click', mew);
-mb.addEventListener("mouseout", main);
 sb.addEventListener('click', snor);
-sb.addEventListener("mouseout", main);
 pb.addEventListener('click', pika);
-pb.addEventListener("mouseout", main);
