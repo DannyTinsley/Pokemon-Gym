@@ -90,69 +90,75 @@ h1 {
   font-style: bold;
   font-size: 52px;
   height: 10vh;
+  width: 100%;
 }
 
-.DannyCard {
+h5 {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-family: Chakra Petch;
+  font-size: 22px;
+  height: auto;
 }
+
+.card{
+  max-height: 50vh;
+
+}
+
 #trainer{
   width:25vh;
   height:25vh;
 }
 
-#pb{
-  margin-left: 26%;
-  margin-top:20%;
-  position: absolute;
-  width:10vh;
-  height:10vh;
-  text-transform: capitalize
-}
 
-#sb{
-  margin-left: 46%;
-  margin-top:20%;
+.DannyCard {
   position: absolute;
-  width:10vh;
-  height:10vh;
-  text-transform: capitalize
-}
-
-#mb{
-  margin-left: 66%;
-  margin-top:20%;
-  position: absolute;
-  width:10vh;
-  height:10vh;
-  text-transform: capitalize
-}
-
-
-#DannyTrainer {
-  position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
-  left: 10%;
+  left: 5%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
 
 #ZairaCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
-  left: 40%;
+  left: 25%;
   background-color: #FFC6D9;
   border: 3px dashed red;
+
 }
 
 #EliCard {
   position: absolute;
-  top: 30%;
+  bottom: 0%;
   transform: translate(-50,-50);
-  left: 70%;
+  left: 45%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
+
+.MikeCard {
+  position: absolute;
+  bottom: 0%;
+  transform: translate(-50,-50);
+  left: 63%;
+  background-color: #FFC6D9;
+  border: 3px dashed red;
+}
+
+.IsaiahCard {
+  position: absolute;
+  bottom: 0%;
+  transform: translate(-50,-50);
+  left: 83%;
+  background-color: #FFC6D9;
+  border: 3px dashed red;
+}
+
 
 p {
   background-color: white;

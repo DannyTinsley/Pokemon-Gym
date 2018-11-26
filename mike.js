@@ -113,12 +113,12 @@ function pika(){
       let defense = response.data.stats[3].base_stat;
 
       pikk = new Pokemon(name,hp,attack,defense,concatenate,img);
-
-      document.body.style.backgroundImage = "url('https://free4kwallpapers.com/no-watermarks/originals/2015/07/23/pokemon-pikachu.jpg')";
-      document.getElementById('mb').style.display = "none";
-      document.getElementById('sb').style.display = "none";
-      document.getElementById('trainer').style.display = "none";
-      document.body.style.backgroundSize = "cover";
+      //
+      // document.body.style.backgroundImage = "url('https://free4kwallpapers.com/no-watermarks/originals/2015/07/23/pokemon-pikachu.jpg')";
+      // document.getElementById('mb').style.display = "none";
+      // document.getElementById('sb').style.display = "none";
+      // document.getElementById('trainer').style.display = "none";
+      // document.body.style.backgroundSize = "cover";
 
       pikk.display();
       starRider.add(pikk);
@@ -154,12 +154,12 @@ function mew(){
       let defense = response.data.stats[3].base_stat;
 
       mewt = new Pokemon(name,hp,attack,defense,concatenate,img);
-
-      document.body.style.backgroundImage = "url('http://www.biocenit.cat/mypics/11/117800/pokemon-mewtwo-wallpaper.png')";
-      document.body.style.backgroundSize = "cover";
-      document.getElementById('pb').style.display = "none";
-      document.getElementById('sb').style.display = "none";
-      document.getElementById('trainer').style.display = "none";
+      //
+      // document.body.style.backgroundImage = "url('http://www.biocenit.cat/mypics/11/117800/pokemon-mewtwo-wallpaper.png')";
+      // document.body.style.backgroundSize = "cover";
+      // document.getElementById('pb').style.display = "none";
+      // document.getElementById('sb').style.display = "none";
+      // document.getElementById('trainer').style.display = "none";
 
       mewt.display();
       starRider.add(mewt);
@@ -197,53 +197,14 @@ function snor(){
 
       snorl = new Pokemon(name,hp,attack,defense,concatenate,img);
 
-      document.body.style.backgroundImage = "url('https://wallpaper-house.com/data/out/5/wallpaper2you_74393.jpg')";
-      document.body.style.backgroundSize = "cover";
-      document.getElementById('mb').style.display = "none";
-      document.getElementById('pb').style.display = "none";
-      document.getElementById('trainer').style.display = "none";
+      // document.body.style.backgroundImage = "url('https://wallpaper-house.com/data/out/5/wallpaper2you_74393.jpg')";
+      // document.body.style.backgroundSize = "cover";
+      // document.getElementById('mb').style.display = "none";
+      // document.getElementById('pb').style.display = "none";
+      // document.getElementById('trainer').style.display = "none";
 
       snorl.display();
       starRider.add(snorl);
     })
 }
 
-// let open1 = document.getElementById("pb");
-// function changing1(){
-//   if(open1.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
-//     open1.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
-//     }
-//   }
-//
-//   let open2 = document.getElementById("sb");
-//   function changing2(){
-//     if(open2.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
-//       open2.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
-//       }
-//     }
-//
-// let open = document.getElementById("mb");
-// function changing(){
-//   if(open.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
-//     open.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
-//     }
-//   }
-
-
-  // function main(){
-  //     document.getElementById('pb').style.display = "initial";
-  //     document.getElementById('mb').style.display = "initial";
-  //     document.getElementById('sb').style.display = "initial";
-  //     open1.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
-  //     open2.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
-  //     open.src = "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png";
-  //     document.getElementById('trainer').style.display = "initial";
-  //     pokeinfo.style.display = "none";
-  //     img1.style.display = "none";
-  //     document.body.style.backgroundImage = "url('https://free4kwallpapers.com/no-watermarks/originals/2018/06/18/created-a-3d-render-of-a-pokemon-trophy-in-the-grass-wallpaper.jpg')";
-  // }
-
-//
-// mb.addEventListener('click', mew);
-// sb.addEventListener('click', snor);
-// pb.addEventListener('click', pika);
