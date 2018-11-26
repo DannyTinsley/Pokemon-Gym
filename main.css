@@ -15,22 +15,22 @@ h1 {
   height: 10vh;
 }
 
-#DannyTrainer {
+.DannyCard {
   position: absolute;
-  width: 30%;
-  top: 20%;
+
+  top: 30%;
   transform: translate(-50,-50);
-  left: 40%;
+  left: 10%;
   background-color: #FFC6D9;
-  border: 3px dashed white;
+  border: 3px dashed red;
 }
 
-#ZairaTrainer {
+#ZairaCard {
   background-color: #D5E1A3;
   border: 3px dashed white;
 }
 
-#EliTrainer {
+#EliCard {
 
 }
 
@@ -40,7 +40,7 @@ p {
   margin: 10px;
   padding: 10px;
   border: 2px dashed black;
-  text-align: left;
+  text-align: center;
   font-family: Chakra Petch;
   width: 90%;
 }
