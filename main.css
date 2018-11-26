@@ -8,6 +8,7 @@ h1 {
   font-style: bold;
   font-size: 52px;
   height: 10vh;
+  width: 100%;
 }
 
 h5 {
@@ -24,6 +25,39 @@ h5 {
 
 }
 
+#trainer{
+  width:25vh;
+  height:25vh;
+}
+
+#pb{
+  margin-left: 26%;
+  margin-top:20%;
+  position: absolute;
+  width:10vh;
+  height:10vh;
+  text-transform: capitalize;
+}
+
+#sb{
+  margin-left: 46%;
+  margin-top:20%;
+  position: absolute;
+  width:10vh;
+  height:10vh;
+  text-transform: capitalize;
+}
+
+#mb{
+  margin-left: 66%;
+  margin-top:20%;
+  position: absolute;
+  width:10vh;
+  height:10vh;
+  text-transform: capitalize;
+}
+
+
 .DannyCard {
   position: absolute;
   top: 30%;
@@ -37,7 +71,7 @@ h5 {
   position: absolute;
   top: 30%;
   transform: translate(-50,-50);
-  left: 30%;
+  left: 25%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
@@ -46,11 +80,28 @@ h5 {
   position: absolute;
   top: 30%;
   transform: translate(-50,-50);
-  left: 55%;
+  left: 45%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
 
+.MikeCard {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50,-50);
+  left: 63%;
+  background-color: #FFC6D9;
+  border: 3px dashed red;
+}
+
+.IsaiahCard {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50,-50);
+  left: 83%;
+  background-color: #FFC6D9;
+  border: 3px dashed red;
+}
 
 
 p {
