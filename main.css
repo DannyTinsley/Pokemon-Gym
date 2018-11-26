@@ -10,11 +10,25 @@ h1 {
   height: 10vh;
 }
 
+h5 {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-family: Chakra Petch;
+  font-size: 22px;
+  height: auto;
+}
+
+.card{
+  max-height: 50vh;
+
+}
+
 .DannyCard {
   position: absolute;
   top: 30%;
   transform: translate(-50,-50);
-  left: 10%;
+  left: 5%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
@@ -23,7 +37,7 @@ h1 {
   position: absolute;
   top: 30%;
   transform: translate(-50,-50);
-  left: 40%;
+  left: 30%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
@@ -32,10 +46,12 @@ h1 {
   position: absolute;
   top: 30%;
   transform: translate(-50,-50);
-  left: 70%;
+  left: 55%;
   background-color: #FFC6D9;
   border: 3px dashed red;
 }
+
+
 
 p {
   background-color: white;
