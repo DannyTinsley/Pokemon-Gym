@@ -30,33 +30,6 @@ h5 {
   height:25vh;
 }
 
-#pb{
-  margin-left: 26%;
-  margin-top:20%;
-  position: absolute;
-  width:10vh;
-  height:10vh;
-  text-transform: capitalize;
-}
-
-#sb{
-  margin-left: 46%;
-  margin-top:20%;
-  position: absolute;
-  width:10vh;
-  height:10vh;
-  text-transform: capitalize;
-}
-
-#mb{
-  margin-left: 66%;
-  margin-top:20%;
-  position: absolute;
-  width:10vh;
-  height:10vh;
-  text-transform: capitalize;
-}
-
 
 .DannyCard {
   position: absolute;
