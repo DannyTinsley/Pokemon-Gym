@@ -24,6 +24,34 @@
   clear: right;
 }
 
+
+.img {
+  margin-left: 100px;
+}
+
+#pokemonSection{
+display: inline-block;
+background-color: red;
+margin-left: 50px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.Gallade{
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.Lucario{
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.Absol{
+  display: inline-block;
+  text-transform: capitalize;
+}
+
 #pb{
   margin-left: 26%;
   margin-top:15%;
@@ -65,3 +93,4 @@
    width:10vh;
    height:10vh;
  }
+
