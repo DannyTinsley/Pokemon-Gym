@@ -1,0 +1,15 @@
+
+#mewBox {
+  margin: 0px;
+  padding: 3px;
+  width: 30%;
+  height: 30vh;
+  border: 2px dashed black;
+  position: fixed;
+  left: 30%;
+  top:25%;
+  color: red;
+  background-color: white;
+  visibility: hidden;
+  z-index: 25;
+}
