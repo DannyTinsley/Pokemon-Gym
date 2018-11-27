@@ -28,8 +28,6 @@ body{
   animation-delay: 2s;
 }
  .shake{
-  /* animation-duration: 3s;
-  animation-delay:3s; */
   animation: shake 2s 2s forwards;
 }
 
@@ -55,7 +53,6 @@ transition: transform .2s;
   width: 33%;
   left: 10%;
   display: inline-block;
-  /* text-align: center; */
 }
 .pokemon2{
   width: 33%;
@@ -73,9 +70,6 @@ transition: transform .2s;
   padding-top: 5%;
   padding-left: 10%;
 }
-/* .text1{
-  padding-top: 0%;
-} */
 .pokeballs{
   width: 170px;
   height: 130px;
