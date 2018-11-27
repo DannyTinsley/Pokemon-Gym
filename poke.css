@@ -1,4 +1,4 @@
-.h2{
+.h2, #eli{
   float: right;
   background-color: red;
   padding: 10px 250px;
@@ -10,7 +10,7 @@
   font-size: 37px;
 }
 
-.h3{
+.h3, #address{
   float: right;
   background-color: red;
   padding: 10px 100px;
