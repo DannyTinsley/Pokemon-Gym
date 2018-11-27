@@ -155,6 +155,16 @@ h5 {
   border: 3px dashed red;
 }
 
+.externalTrainer {
+  width:20%;
+  position: absolute;
+  top: 5%;
+  transform: translate(-50,-50);
+  left: 40%;
+  background-color: white;
+  border: 3px dashed red;
+}
+
 
 p {
   background-color: white;
@@ -164,5 +174,16 @@ p {
   border: 2px dashed black;
   text-align: center;
   font-family: Chakra Petch;
-  width: 90%;
+  left: 25%;
+  width: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+.cardLink{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+
 }
