@@ -216,3 +216,10 @@ p {
  width: 50%;
 
 }
+
+.trainerBackground {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-image: url(trainer_battlegrounds.jpg);
+  background-size: cover;
+}

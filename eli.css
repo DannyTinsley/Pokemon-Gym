@@ -1,7 +1,8 @@
 
 body{
-  background: url("pokeArena.jpg");
+  background: url("trainer_battlegrounds.jpg");
   background-size: cover;
+  background-position: center;
 }
 #header{
   height: 100px;
