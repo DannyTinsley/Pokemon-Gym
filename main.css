@@ -160,12 +160,13 @@ h5 {
 }
 
 .externalTrainer {
-  width:30%;
+  margin: 0px;
+  padding: 0px;
+  width:40%;
   position: fixed;
-  top: 5%;
+  bottom: 10%;
   transform: translate(-50,-50);
-  left: 15%;
-  z-index: 1;
+  left: -10%;
 }
 
 
@@ -176,10 +177,11 @@ p {
   padding: 10px;
   border: 2px dashed black;
   text-align: center;
+  font-size: 30px;
   font-family: Chakra Petch;
   left: 25%;
   width: 50%;
-  top: 40%;
+  bottom: 8%;
   position: absolute;
 }
 
@@ -194,25 +196,25 @@ p {
 
 .imtip {
   position: absolute;
-  bottom: 0%;
+  bottom: 30%;
 }
 
 
 #attack1 {
- left: 1%;
- width: 40%;
+ left: 15%;
+ width: 30%;
 
 }
 
 #attack2 {
- left: 65%;
- width: 35%;
+ left: 60%;
+ width: 25%;
 
 }
 
 #attack3 {
- left: 30%;
- width: 40%;
+ left: 35%;
+ width: 30%;
 
 }
 
