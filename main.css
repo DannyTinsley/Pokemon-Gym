@@ -108,10 +108,14 @@ h5 {
   height:25vh;
 }
 
+.bottom {
+  bottom: 0%;
+
+}
 
 .DannyCard {
   position: absolute;
-  bottom: 0%;
+  /* bottom: 0%; */
   transform: translate(-50,-50);
   left: 5%;
   background-color: #FFC6D9;
@@ -120,7 +124,7 @@ h5 {
 
 #ZairaCard {
   position: absolute;
-  bottom: 0%;
+  /* bottom: 0%; */
   transform: translate(-50,-50);
   left: 25%;
   background-color: #FFC6D9;
@@ -130,7 +134,7 @@ h5 {
 
 #EliCard {
   position: absolute;
-  bottom: 0%;
+  /* bottom: 0%; */
   transform: translate(-50,-50);
   left: 45%;
   background-color: #FFC6D9;
@@ -139,7 +143,7 @@ h5 {
 
 .MikeCard {
   position: absolute;
-  bottom: 0%;
+  /* bottom: 0%; */
   transform: translate(-50,-50);
   left: 63%;
   background-color: #FFC6D9;
@@ -148,7 +152,7 @@ h5 {
 
 .IsaiahCard {
   position: absolute;
-  bottom: 0%;
+  /* bottom: 0%; */
   transform: translate(-50,-50);
   left: 83%;
   background-color: #FFC6D9;
