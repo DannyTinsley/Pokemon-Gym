@@ -23,6 +23,9 @@ body{
   width: 600px;
 
 }
+#pic{
+  transform: translate(319px, -57px);
+}
 .fadeInLeftBig {
   animation-duration: 2s;
   animation-delay: 2s;
@@ -48,7 +51,8 @@ transition: transform .2s;
 .text1{
   font-size: 18pt;
   text-transform: capitalize;
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Impact, sans-serif;
+  color: white;
   list-style-type: none; */
 }
 .pokemon1{
@@ -82,7 +86,6 @@ transition: transform .2s;
 }
 .merge{
   display: inline-block;
-  width: 400px;
-  height: 300px;
-  margin-right: 0;
+  margin-left: 0;
+  padding-left: 10px;
 }
