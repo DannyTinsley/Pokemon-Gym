@@ -224,3 +224,18 @@ p {
   background-image: url(trainer_battlegrounds.jpg);
   background-size: cover;
 }
+
+#secondpart{
+  height: 585px;
+  background: green;
+}
+
+.poke {
+width: 150px;
+height: 150px;
+}
+.numerouno{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
