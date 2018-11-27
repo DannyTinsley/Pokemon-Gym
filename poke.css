@@ -23,3 +23,8 @@
   display: block;
   clear: right;
 }
+
+#pb, #mb,#sb{
+  padding:3px;
+  margin-left: 30px;
+}
