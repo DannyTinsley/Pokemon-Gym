@@ -160,13 +160,12 @@ h5 {
 }
 
 .externalTrainer {
-  width:20%;
-  position: absolute;
+  width:30%;
+  position: fixed;
   top: 5%;
   transform: translate(-50,-50);
-  left: 40%;
-  background-color: white;
-  border: 3px dashed red;
+  left: 15%;
+  z-index: 1;
 }
 
 
@@ -180,7 +179,7 @@ p {
   font-family: Chakra Petch;
   left: 25%;
   width: 50%;
-  top: 50%;
+  top: 40%;
   position: absolute;
 }
 
@@ -201,7 +200,7 @@ p {
 
 #attack1 {
  left: 1%;
- width: 50%;
+ width: 40%;
 
 }
 
@@ -212,7 +211,14 @@ p {
 }
 
 #attack3 {
- left: 25%;
- width: 50%;
+ left: 30%;
+ width: 40%;
 
+}
+
+.trainerBackground {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-image: url(trainer_battlegrounds.jpg);
+  background-size: cover;
 }

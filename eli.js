@@ -9,9 +9,16 @@ let attack1;
 let defense1;
 let hp1;
 
-//
 
-
+// document.getElementById('evil').addEventListener =('click', function() {
+//     if (this.src == 'ace.png') {
+//         this.src = 'evil.png';
+//     } else if (this.src == 'evil.png') {
+//         this.src = 'ace.png';
+//     } else {
+//         alert('error');
+//     }
+// })
 class Pokemon {
 constructor(name, image, ability, attack, defense, hp, number) {
 this.name = name;

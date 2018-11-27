@@ -1,7 +1,8 @@
 
 body{
-  background: url("pokeArena.jpg");
+  background: url("trainer_battlegrounds.jpg");
   background-size: cover;
+  background-position: center;
 }
 #header{
   height: 100px;
@@ -30,55 +31,6 @@ body{
   animation: shake 2s 2s forwards;
 }
 
-.pokeball {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  background-color: #eee;
-  border-radius: 100%;s
-}
-.pokeball::before {
-  content: '';
-  width: 200px;
-  height: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-top-left-radius: 200px;
-  border-top-right-radius: 200px;
-  background-color: #ff4344;
-}
-
-.pokeball::after {
-  content: '';
-  width: 200px;
-  height: 10px;
-  position: absolute;
-  top: calc(50% - 5px);
-  left: 0;
-  background: #333;
-}
-.pokeballButton {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  border: 10px solid #333;
-  background-color: #eee;
-  left: calc(50% - 35px);
-  top: calc(50% - 35px);
-  z-index: 1;
-}
-.pokeballButton::after {
-  content: '';
-  position: absolute;
-  top: calc(50% - 17px);
-  left: calc(50% - 17px);
-  height: 30px;
-  width: 30px;
-  border: 2px solid #333;
-  border-radius: 100%;
-}
 .pokemon-image{
   width: 250px;
   height: 250px;
@@ -121,4 +73,10 @@ transition: transform .2s;
 .pokeballs{
   width: 170px;
   height: 130px;
+}
+.merge{
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin-right: 0;
 }
