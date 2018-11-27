@@ -71,9 +71,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   from {opacity: .4}
   to {opacity: 3}
 }
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+
 body{
   background: url("PokeArena.jpg") no-repeat fixed center;
 }
@@ -164,7 +162,7 @@ h5 {
   padding: 0px;
   width:40%;
   position: fixed;
-  bottom: 10%;
+  top: 10%;
   transform: translate(-50,-50);
   left: -10%;
 }
@@ -224,3 +222,8 @@ p {
   background-image: url(trainer_battlegrounds.jpg);
   background-size: cover;
 }
+
+
+/* @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
