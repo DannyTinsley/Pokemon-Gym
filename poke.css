@@ -81,6 +81,7 @@ padding-right: 100px;
 #balls{
   clear:both;
   padding-top: 100px;
+  width:3px;
 }
 #allpoke{
   color:white;
