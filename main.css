@@ -71,9 +71,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   from {opacity: .4}
   to {opacity: 3}
 }
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+
 body{
   background: url("PokeArena.jpg") no-repeat fixed center;
 }
@@ -164,7 +162,7 @@ h5 {
   padding: 0px;
   width:40%;
   position: fixed;
-  bottom: 10%;
+  top: 10%;
   transform: translate(-50,-50);
   left: -10%;
 }
@@ -225,17 +223,9 @@ p {
   background-size: cover;
 }
 
-#secondpart{
-  height: 585px;
-  background: green;
-}
 
-.poke {
-width: 150px;
-height: 150px;
-}
-.numerouno{
-    position: absolute;
-    top: 20px;
-    left: 50px;
-}
+
+/* @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+
