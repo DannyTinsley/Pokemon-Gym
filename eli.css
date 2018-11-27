@@ -97,7 +97,7 @@ transition: transform .2s;
     -webkit-transform: scale(3.5); /* Safari 3-8 */
     transform: scale(1.5);
 }
-li{
+.text1{
   font-size: 18pt;
   text-transform: capitalize;
   font-family: Impact, Charcoal, sans-serif;
