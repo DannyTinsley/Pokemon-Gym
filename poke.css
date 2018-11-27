@@ -24,6 +24,7 @@
   clear: right;
 }
 
+
 .img {
   margin-left: 100px;
 }
@@ -50,3 +51,46 @@ padding-right: 100px;
   display: inline-block;
   text-transform: capitalize;
 }
+
+#pb{
+  margin-left: 26%;
+  margin-top:15%;
+  position: absolute;
+  width:15vh;
+  height:15vh;
+  text-transform: capitalize
+}
+
+#sb{
+  margin-left: 46%;
+  margin-top:15%;
+  position: absolute;
+  width:15vh;
+  height:15vh;
+  text-transform: capitalize
+}
+
+#mb{
+  margin-left: 66%;
+  margin-top:15%;
+  position: absolute;
+  width:15vh;
+  height:15vh;
+  text-transform: capitalize
+}
+
+#allpoke{
+  color:white;
+  font-size:10px;
+ }
+
+ .product{
+   text-align: center;
+   padding-top: 280px;
+   display: inline-table;
+   padding-left:90px;
+   /* margin-left: 5%; */
+   width:10vh;
+   height:10vh;
+ }
+
