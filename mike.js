@@ -150,7 +150,7 @@ function snor(){
     })
 }
 
-let open1 = document.getElementsByName('pokeBall');
+let open1 = document.getElementById('pb');
 function changing1(){
   if(open1.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
     open1.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
@@ -170,7 +170,9 @@ function changing(){
     open.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
     }
   }
-
+  mb.addEventListener('click', changing);
+  sb.addEventListener('click', changing2);
+  pb.addEventListener('click', changing1);
   mb.addEventListener('click', mew);
   sb.addEventListener('click', snor);
   pb.addEventListener('click', pika);
