@@ -191,3 +191,28 @@ p {
   z-index: 1;
 
 }
+
+
+.imtip {
+  position: absolute;
+  bottom: 0%;
+}
+
+
+#attack1 {
+ left: 1%;
+ width: 50%;
+
+}
+
+#attack2 {
+ left: 65%;
+ width: 35%;
+
+}
+
+#attack3 {
+ left: 25%;
+ width: 50%;
+
+}
