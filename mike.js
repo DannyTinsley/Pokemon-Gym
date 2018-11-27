@@ -1,29 +1,3 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
 
 let img1;
 let pokeinfo;
@@ -75,7 +49,6 @@ class Trainer{
 let starRider = new Trainer();
 
 let pikk;
-function pika(){
   let pika ="https://fizal.me/pokeapi/api/v2/name/pikachu.json";
   axios.get(pika)
     .then(function(response){
@@ -102,21 +75,13 @@ function pika(){
       let defense = response.data.stats[3].base_stat;
 
       pikk = new Pokemon(name,hp,attack,defense,concatenate,img);
-      //
-      // document.body.style.backgroundImage = "url('https://free4kwallpapers.com/no-watermarks/originals/2015/07/23/pokemon-pikachu.jpg')";
-      // document.getElementById('mb').style.display = "none";
-      // document.getElementById('sb').style.display = "none";
-      // document.getElementById('trainer').style.display = "none";
-      // document.body.style.backgroundSize = "cover";
 
       pikk.display();
       starRider.add(pikk);
-
    })
-}
+
 
 let mewt;
-function mew(){
   let mew ="https://fizal.me/pokeapi/api/v2/name/mewtwo.json";
     axios.get(mew)
     .then(function mew(response){
@@ -143,20 +108,12 @@ function mew(){
       let defense = response.data.stats[3].base_stat;
 
       mewt = new Pokemon(name,hp,attack,defense,concatenate,img);
-      //
-      // document.body.style.backgroundImage = "url('http://www.biocenit.cat/mypics/11/117800/pokemon-mewtwo-wallpaper.png')";
-      // document.body.style.backgroundSize = "cover";
-      // document.getElementById('pb').style.display = "none";
-      // document.getElementById('sb').style.display = "none";
-      // document.getElementById('trainer').style.display = "none";
-
       mewt.display();
       starRider.add(mewt);
     })
-}
+
 
 let snorl;
-function snor(){
   let snorlax ="https://fizal.me/pokeapi/api/v2/name/snorlax.json";
   axios.get(snorlax)
 
@@ -185,14 +142,6 @@ function snor(){
       let defense= response.data.stats[3].base_stat;
 
       snorl = new Pokemon(name,hp,attack,defense,concatenate,img);
-
-      // document.body.style.backgroundImage = "url('https://wallpaper-house.com/data/out/5/wallpaper2you_74393.jpg')";
-      // document.body.style.backgroundSize = "cover";
-      // document.getElementById('mb').style.display = "none";
-      // document.getElementById('pb').style.display = "none";
-      // document.getElementById('trainer').style.display = "none";
-
       snorl.display();
       starRider.add(snorl);
     })
-}
