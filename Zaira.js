@@ -1,16 +1,16 @@
-class Trainer{
-  pokemon(name, hometown){
-    this.name= name;
-    this.hometown = hometown;}
-
-    all(){
-      return pokemon;}
-    get(name){
-      return pokemon[0];}
-    }
+// class Trainer{
+//   pokemon(name, hometown){
+//     this.name= name;
+//     this.hometown = hometown;}
+//
+//     // all(){
+//     //   return pokemon;}
+//     // get(name){
+//     //   return pokemon[0];}
+//     }
 
 axios.get("https://fizal.me/pokeapi/api/v2/name/tangrowth.json")
-    .then(insert)
+    .then(insert);
       function insert(response){
         let pokename = response.data.species.name;
         let hp = response.data.stats[5].base_stat;
