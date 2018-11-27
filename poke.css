@@ -26,42 +26,55 @@
 
 #pb{
   margin-left: 26%;
-  margin-top:15%;
+  margin-top:20%;
   position: absolute;
   width:15vh;
   height:15vh;
-  text-transform: capitalize
+  /* clear:both; */
 }
 
 #sb{
   margin-left: 46%;
-  margin-top:15%;
+  margin-top:20%;
   position: absolute;
   width:15vh;
   height:15vh;
-  text-transform: capitalize
+  /* clear:both; */
 }
 
 #mb{
   margin-left: 66%;
-  margin-top:15%;
+  margin-top:20%;
   position: absolute;
   width:15vh;
   height:15vh;
-  text-transform: capitalize
+  /* clear:both; */
 }
-
+#balls{
+  clear:both;
+  padding-top: 100px;
+}
 #allpoke{
   color:white;
   font-size:10px;
  }
-
+/* #sidebar{
+  transform: translate(300,300);
+} */
+#kirb{
+  width:300px;
+  display: inline-block;
+  float:left;
+  padding-left: 250px;
+  padding-top: 150px;
+}
  .product{
    text-align: center;
+   text-transform: capitalize;
    padding-top: 280px;
    display: inline-table;
    padding-left:90px;
-   /* margin-left: 5%; */
-   width:10vh;
-   height:10vh;
+   width:30px;
+   height:30px;
+   transform:translate(200px,10px);
  }
