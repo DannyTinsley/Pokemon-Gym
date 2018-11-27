@@ -49,6 +49,7 @@ class Trainer{
 let starRider = new Trainer();
 
 let pikk;
+function pika(){
   let pika ="https://fizal.me/pokeapi/api/v2/name/pikachu.json";
   axios.get(pika)
     .then(function(response){
@@ -79,9 +80,10 @@ let pikk;
       pikk.display();
       starRider.add(pikk);
    })
-
+}
 
 let mewt;
+function mew(){
   let mew ="https://fizal.me/pokeapi/api/v2/name/mewtwo.json";
     axios.get(mew)
     .then(function mew(response){
@@ -111,9 +113,10 @@ let mewt;
       mewt.display();
       starRider.add(mewt);
     })
-
+}
 
 let snorl;
+function snor(){
   let snorlax ="https://fizal.me/pokeapi/api/v2/name/snorlax.json";
   axios.get(snorlax)
 
@@ -145,3 +148,31 @@ let snorl;
       snorl.display();
       starRider.add(snorl);
     })
+}
+
+let open1 = document.getElementById('pb');
+function changing1(){
+  if(open1.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
+    open1.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
+    }
+  }
+
+  let open2 = document.getElementById("sb");
+  function changing2(){
+    if(open2.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
+      open2.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
+      }
+    }
+
+let open = document.getElementById("mb");
+function changing(){
+  if(open.src === "https://ubisafe.org/images250_/pokeball-transparent-8-bit.png"){
+    open.src ='https://ubisafe.org/images250_/pokeball-transparent-8-bit-6.png';
+    }
+  }
+  mb.addEventListener('click', changing);
+  sb.addEventListener('click', changing2);
+  pb.addEventListener('click', changing1);
+  mb.addEventListener('click', mew);
+  sb.addEventListener('click', snor);
+  pb.addEventListener('click', pika);
