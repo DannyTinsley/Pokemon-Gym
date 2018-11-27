@@ -24,14 +24,14 @@
   clear: right;
 }
 
-
 .img {
   margin-left: 100px;
+  float: left;
 }
 
 #pokemonSection{
 display: inline-block;
-background-color: red;
+color: white;
 margin-left: 50px;
 padding-left: 100px;
 padding-right: 100px;
@@ -106,4 +106,3 @@ padding-right: 100px;
    height:30px;
    transform:translate(200px,10px);
  }
-
